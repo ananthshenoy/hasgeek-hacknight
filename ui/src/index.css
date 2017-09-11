@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.facebook-login {
+  color: white;
+  background-color: #3b5998;
+  padding: 6px 15px;
+  line-height: 1.57142857;
+  border: none;
+}
+.facebook-login:disabled {
+  opacity: .65;
+}
+
+#login-with-facebook {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
